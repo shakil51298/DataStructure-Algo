@@ -24,13 +24,13 @@ public class Stack {
 		Scanner scanMenu = new Scanner(System.in);
 		int selectMenu = scanMenu.nextInt();
 		switch(selectMenu) {
-		case 1:
-			push(stk);
-			break;
-		case 2:
-			pop();
-			break;
-		}
+			case 1:
+				push(stk);
+				break;
+			case 2:
+				pop();
+				break;
+			}
 		
 	}
 }
